@@ -100,7 +100,7 @@ def get_summaries(rss_feed_url, creative_level):
 
 
 def generate_summary(article, llm):
-    """function to generate summary of an article using langchain"""
+    """function to generate summary for an article using langchain"""
     summary_prompt_template = """
 Provide a very short summary, no more than four sentences, for the following article:
 
